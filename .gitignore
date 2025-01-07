@@ -1,5 +1,5 @@
 node_modules
-
+#repomix.md
 /.cache
 /build
 .env
@@ -9,3 +9,5 @@ node_modules
 
 public/draco
 storybook-static
+.DS_Store
+repomix.md

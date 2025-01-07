@@ -108,27 +108,27 @@ const tokensMobileSmall = {
 
 // Tokens that change based on theme
 const dark = {
-  background: 'oklch(17.76% 0 0)',
-  backgroundLight: 'oklch(21.78% 0 0)',
-  primary: 'oklch(84.42% 0.19 202.24)',
-  accent: 'oklch(84.42% 0.19 202.24)',
-  error: 'oklch(65.91% 0.249 13.76)',
-  text: 'var(--white)',
+  background: 'oklch(15% 0.03 230)',    // Deep ocean blue
+  backgroundLight: 'oklch(20% 0.04 230)',
+  primary: 'oklch(65% 0.12 230)',       // Mapped Blue (soft blue w/ yellow undertone)
+  accent: 'oklch(70% 0.08 150)',        // Quietude sage
+  error: 'oklch(60% 0.15 25)',          // Muted coral
+  text: 'oklch(98% 0.02 180)',          // Cool white
   textTitle: 'var(--text)',
-  textBody: 'color-mix(in lab, var(--text) 80%, transparent)',
-  textLight: 'color-mix(in lab, var(--text) 60%, transparent)',
+  textBody: 'color-mix(in lab, var(--text) 85%, transparent)',
+  textLight: 'color-mix(in lab, var(--text) 65%, transparent)',
 };
 
 const light = {
-  background: 'oklch(96.12% 0 0)',
-  backgroundLight: 'var(--white)',
-  primary: 'var(--black)',
-  accent: 'oklch(84.42% 0.19 202.24)',
-  error: 'oklch(63.17% 0.259 25.41)',
-  text: 'var(--black)',
-  textTitle: 'color-mix(in lab, var(--text) 90%, transparent)',
-  textBody: 'color-mix(in lab, var(--text) 75%, transparent)',
-  textLight: 'color-mix(in lab, var(--text) 55%, transparent)',
+  background: 'oklch(97% 0.02 190)',    // Pale sky blue
+  backgroundLight: 'oklch(100% 0 0)',
+  primary: 'oklch(55% 0.10 230)',       // Sophisticated deep blue
+  accent: 'oklch(60% 0.08 150)',        // Soft sage
+  error: 'oklch(65% 0.12 25)',          // Soft terracotta
+  text: 'oklch(20% 0.05 230)',          // Deep blue-grey
+  textTitle: 'color-mix(in lab, var(--text) 95%, transparent)',
+  textBody: 'color-mix(in lab, var(--text) 80%, transparent)',
+  textLight: 'color-mix(in lab, var(--text) 60%, transparent)',
 };
 
 export const tokens = {
