@@ -126,8 +126,17 @@ export const Contact = () => {
               data-status={status}
               style={getDelay(tokens.base.durationXS, initDelay, 0.4)}
             />
+            <Text
+                          size="l"
+                          as="p"
+                          className={styles.paragraph}
+                          data-status={status}
+                          style={getDelay(tokens.base.durationXS, initDelay)}
+                        >
+                          If you’re interested in discussing a project or if you just want to say hi, feel free to reach out at `gauranshiitd`` at gmail.com!
+            </Text>
             {/* Hidden honeypot field to identify bots */}
-            <Input
+            {/* <Input
               className={styles.botkiller}
               label="Name"
               name="name"
@@ -156,7 +165,7 @@ export const Contact = () => {
               name="message"
               maxLength={MAX_MESSAGE_LENGTH}
               {...message}
-            />
+            /> */}
             <Transition
               unmount
               in={!sending && actionData?.errors}
@@ -181,7 +190,7 @@ export const Contact = () => {
                 </div>
               )}
             </Transition>
-            <Button
+            {/* <Button
               className={styles.button}
               data-status={status}
               data-sending={sending}
@@ -193,7 +202,7 @@ export const Contact = () => {
               type="submit"
             >
               Send message
-            </Button>
+            </Button> */}
           </Form>
         )}
       </Transition>

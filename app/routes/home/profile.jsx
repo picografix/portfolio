@@ -21,16 +21,11 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you’re interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>.
+      I’m Gauransh, working as a software engineer at{' '}
+      <Link href="https://www.adobe.com">Adobe</Link>. This is my final attempt to build a portfolio website which I plan to host for lifetime, I am developer with experience in building enterprise grade Generative AI appliations, I am also a newbie runner (best is 5k ☹️), checkout my blogs incase you are looking to know more about me.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
-      about new projects, so feel free to drop me a line.
+      I am always ready to hop on a call to discuss about anything, feel free to reach out to me at `gauranshiitd` at `gmail.com`
     </Text>
   </Fragment>
 );
@@ -55,7 +50,7 @@ export const Profile = ({ id, visible, sectionRef }) => {
           <div className={styles.content} ref={nodeRef}>
             <div className={styles.column}>
               <ProfileText visible={visible} titleId={titleId} />
-              <Button
+              {/* <Button
                 secondary
                 className={styles.button}
                 data-visible={visible}
@@ -63,7 +58,7 @@ export const Profile = ({ id, visible, sectionRef }) => {
                 icon="send"
               >
                 Send me a message
-              </Button>
+              </Button> */}
             </div>
             <div className={styles.column}>
               <div className={styles.tag} aria-hidden>
