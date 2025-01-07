@@ -10,16 +10,19 @@ _______________________________________________________________________________
 
 DESIGNER | デザイナー
 
-Hamish Williams
-Hand crafted design & web development
+Gauransh Soni
+AI Engineer
 
-Design tools:
-Figma
-Photoshop
-Blender
+AI tools:
+Cursor
+Perplexity
+Zed
+OpenAI
+Claude
 
-twitter.com/hamishmw
-github.com/hamishmw
+
+twitter.com/gauranshsoni
+github.com/picografix
 
 _______________________________________________________________________________
 
