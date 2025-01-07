@@ -50,7 +50,7 @@ export const Profile = ({ id, visible, sectionRef }) => {
           <div className={styles.content} ref={nodeRef}>
             <div className={styles.column}>
               <ProfileText visible={visible} titleId={titleId} />
-              <Button
+              {/* <Button
                 secondary
                 className={styles.button}
                 data-visible={visible}
@@ -58,7 +58,7 @@ export const Profile = ({ id, visible, sectionRef }) => {
                 icon="send"
               >
                 Send me a message
-              </Button>
+              </Button> */}
             </div>
             <div className={styles.column}>
               <div className={styles.tag} aria-hidden>
