@@ -1,0 +1,39 @@
+---
+title: 'What matters in Retieval Augmented Generation'
+abstract: Retrieval Augmented Generation (RAG) has emerged as a crucial technique for enhancing Large Language Models' capabilities by providing them with up-to-date, relevant external knowledge. While the concept seems straightforward, implementing an effective RAG system requires careful consideration of several key aspects.
+date: '2025-01-11'
+banner: /static/hello-world-banner.jpg
+featured: true
+---
+
+Retrieval Augmented Generation (RAG) has emerged as a crucial technique for enhancing Large Language Models' capabilities by providing them with up-to-date, relevant external knowledge. While the concept seems straightforward, implementing an effective RAG system requires careful consideration of several key aspects.
+## The Search Challenge
+  The fundamental challenge in RAG isn't just about having access to information - it's about finding the right information efficiently. Even with advanced models like Google Gemini offering expanded context windows of 1 million tokens, the core challenge remains: how to identify and retrieve the most relevant content for a given query.
+## Advanced Retrieval Strategies
+### Semantic Search Enhancement
+Traditional vector similarity search alone often falls short when dealing with complex, nuanced queries. The system needs to understand not just the words, but the intent behind the query.
+### Hierarchical Retrieval
+Two effective approaches for improving retrieval quality:
+#### Summary-Based Indexing
+1. Create concise summaries of all documents
+2. Perform initial retrieval based on summary similarity
+3. Deep dive into full documents from matched summaries
+#### Filtered Search Approach
+1. Implement metadata-based pre-filtering
+2. Narrow search scope to relevant document categories
+3. Execute semantic search within filtered subset
+### Optimizing Context Quality
+#### Noise Reduction Techniques
+1. Document chunking with optimal segment size
+2. Semantic deduplication of similar content
+3. Context relevance scoring and ranking
+### Query Transformation
+1. For complex business queries like finding industry-specific case studies, the system should:
+2. Break down compound queries into searchable components
+3. Identify key entities and relationships
+4. Map business context to document metadata
+### Implementation Best Practices
+1. Document Processing
+2. Implement robust text extraction and cleaning
+3. Maintain document metadata and relationships
+4. Regular index updates and maintenance
